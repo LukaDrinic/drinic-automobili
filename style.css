@@ -1,0 +1,226 @@
+
+h1 {
+	font-size: 130px;
+	color: white;
+	font-family: lato;
+	font-weight: 800;
+	text-decoration: underline;
+	margin-bottom: -30px;
+	animation: slide;
+	animation-duration:1s;
+
+}
+
+@keyframes slide {
+	from { margin-top:100% }
+	to { margin-left:0% }
+
+}
+
+h2	{
+	font-size: 50px;
+   	
+	color: white;
+	font-family: lato;
+	font-weight: 700;
+
+}
+
+ul	{
+	display: flex;
+
+}
+
+ul li {
+	margin-top: 50px;
+	padding: 0px;
+	text-align: center;
+	margin: auto;
+
+}
+
+ul li a{
+	font-family: lato;
+	font-size: 25px;
+	border: 2px solid black;
+	border-radius: 35px;
+	text-decoration: none;
+	padding: 9px;
+	color: black;
+	background-color: greenyellow;
+	font-weight: bold;
+}
+
+.bmw {
+	background-image: url("crni.png");
+	background-repeat: repeat;
+	position: fixed;
+	z-index: -3;
+	height: 1080px;
+	width: 1920px;
+	background-size: cover	;
+	background-position: center ;
+	background-attachment: fixed;
+		 overflow-x: hidden;
+
+	height: 1080px;
+	overflow-x: hidden;
+	max-width: 100%;
+	 overflow-x: hidden;
+	 margin-top: -50px;
+}
+
+ul li a:hover {
+	background-color: white;
+	transition: 0.3s;
+	
+
+}
+
+.ha2 {
+	width: 700px;
+	border-left: 50px;
+}
+
+.navmeni2 a{
+	list-style-type: none;
+
+}
+
+
+.onamapozadina {
+ 
+	background-image: url("crni.png");
+	background-repeat: repeat;
+	position: fixed;
+	z-index: -3;
+	height: 1080px;
+	width: 1920px;
+	background-size: cover	;
+	background-position: center ;
+	background-attachment: fixed;
+		 overflow-x: hidden;
+
+	height: 1080px;
+	overflow-x: hidden;
+	max-width: 100%;
+	 overflow-x: hidden;
+	 margin-top: -50px;
+	 margin-left: -8px;
+}
+
+
+.h3mali {
+	margin-top: 100px;
+	font-family: lato;
+	font-size: 40px;
+	color: white;
+
+}
+
+.paragraf1 {
+	width: 600px;
+	text-align: center;
+	margin: auto;
+	border: 2px solid whitesmoke;
+	border-radius: 50px;
+	padding: 15px;
+	background-color: white;
+	font-family: lato;
+}
+
+.h3malidrugi {
+	margin-top: 100px;
+	font-family: lato;
+	font-size: 40px;
+	color: white;
+
+}
+
+.lista li{
+	color: black;
+	background-color: white;
+	font-family: lato;
+
+}
+
+.navmeni3 {
+	list-style-type: none;
+}
+
+.h3usluge {
+	margin-top: 100px;
+	font-family: lato;
+	font-size: 40px;
+	color: white;
+}
+
+.tabela1 {	
+	background-color: greenyellow;
+	font-family: lato;
+	font-weight: bold;
+}
+
+.kon1 {
+	font-family: lato;
+	color: white;
+	margin-bottom: 100px;
+
+}
+
+.forma1 {
+	font-family: lato;
+	color: greenyellow;
+	display: block;
+	font-size: 20px;
+
+}
+
+.input1 {
+	margin-right: 0px;
+
+	border-radius: 20px;
+}
+
+.dugme {
+	font-size: 20px;
+	border: 2px solid greenyellow;
+	border-radius: 20px;
+	background-color: greenyellow;
+}
+
+.dugme:hover {
+	color: white;
+}
+
+.atribut {
+	font-size: 20px;
+	margin: 10px;
+}
+
+.atribut:hover {
+	color: white;
+	
+
+}
+
+.dugme:active {
+	background-color: purple;
+}
+
+tr:nth-child(odd) {
+	background-color: skyblue;
+}
+
+tr:nth-child(even) {
+	background-color: greenyellow;
+}
+
+.td2 {
+	text-align: center;
+}
+
+.bmw {
+	 margin-left: -8px;
+}
+
