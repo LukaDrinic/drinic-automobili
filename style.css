@@ -90,7 +90,7 @@ ul li a:hover {
 
 .onamapozadina {
  
-	background-image: url("crni.png");
+	background-image: url("../images/crni.png");
 	background-repeat: repeat;
 	position: fixed;
 	z-index: -3;
