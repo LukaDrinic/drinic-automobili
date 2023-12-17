@@ -180,7 +180,9 @@ ul li a:hover {
 	margin-right: 0px;
 
 	border-radius: 20px;
+	padding: 20px;
 }
+
 
 .dugme {
 	font-size: 20px;
@@ -196,6 +198,7 @@ ul li a:hover {
 .atribut {
 	font-size: 20px;
 	margin: 10px;
+
 }
 
 .atribut:hover {
@@ -224,3 +227,12 @@ tr:nth-child(even) {
 	 margin-left: -8px;
 }
 
+.onama {
+	padding: 50px;
+}
+
+
+.column {
+	float: left;
+	width: 33.33%;
+}
